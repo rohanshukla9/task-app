@@ -1,10 +1,16 @@
-
-
 const tasks = [
   {
     description: 'Get milk and eggs',
-    created_at: Date.now(),
+  },
+  {
+    description: 'Dont get milk and cows',
+  },
+  {
+    description: 'Do not forget to get milk and eggs',
+  },
+  {
+    description: 'Get milk and eggs',
   },
 ];
 
-module.exports = tasks;
+export default tasks;
